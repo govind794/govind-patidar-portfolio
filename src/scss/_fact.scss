@@ -1,0 +1,16 @@
+.facts {
+    width: 59%;
+    background: url(../images/background/facts-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3rem;
+    .facts-title {
+        margin-top: 41px;
+        padding-bottom: 42px;
+        h1 {
+            margin: 0px;
+        }
+    }
+}

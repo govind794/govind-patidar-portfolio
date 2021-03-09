@@ -1,0 +1,46 @@
+.contact-details {
+    width: 59%;
+    padding-top: 10px;
+    .contact {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 3rem;
+        .contact-title {
+            margin-top: 41px;
+            padding-bottom: 42px;
+            h1 {
+                margin: 0px;
+            }
+        }
+    }
+}
+
+.contact-details .social-media {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.contact-details .social-media a {
+    background: #343333 none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 50px;
+    line-height: 55px;
+    padding: 0;
+    width: 50px;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+.contact-details .social-media a + .tooltip > .tooltip-inner {
+    background-color: #343333;
+    color: #ffc300;
+    font-size: 16px;
+    padding: 3px 10px 5px 10px;
+    border-radius: 2px;
+    border: 0 none;
+}
+
+.contact-details .social-media a + .tooltip > .tooltip-arrow {
+    border-top-color: #343333;
+}

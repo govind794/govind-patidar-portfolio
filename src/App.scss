@@ -1,0 +1,95 @@
+@import "./scss/loader";
+@import "./scss/home";
+@import "./scss/profile";
+@import "./scss/fact";
+@import "./scss/services";
+@import "./scss/footer";
+@import "./scss/resume";
+@import "./scss/education";
+@import "./scss/exprience";
+@import "./scss/skills";
+@import "./scss/portfolio";
+@import "./scss/contact";
+@import "./scss/contactDetails";
+@import "./scss/responsive";
+
+/* Start Globle classes */
+
+:root {
+    /* Theme color */
+    --text-gray: #3f4954;
+    --text-light: #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* Gradient color */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+    /* Theme font family*/
+    --Abel: "Abel", cursive;
+    --Anton: "Anton", cursive;
+    --Josefin: "Josefin", cursive;
+    --Lexend: "Lexend", cursive;
+    --Livvic: "Livvic", cursive;
+}
+
+/*-------------------
+3 ) General Rulas
+-------------------*/
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #343333;
+}
+
+html,
+body,
+textarea,
+button,
+input {
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.42;
+}
+
+h1 {
+    font-size: 63px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h2.small-heading {
+    padding: 60px 0 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+body {
+    overflow-x: hidden;
+}
