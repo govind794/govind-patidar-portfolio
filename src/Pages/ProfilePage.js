@@ -1,9 +1,14 @@
 import React from 'react';
 import dp from '../images/govind.jpg';
-import { FaEyeDropper, FaCode, FaRocket } from 'react-icons/fa';
+import pdf from '../images/Govind.pdf';
 import Services from '../Components/Services';
 import Footer from '../Components/Footer';
 import Fact from '../Components/Fact';
+import { ImTree } from 'react-icons/im';
+import { SiZapier } from 'react-icons/si';
+import { IoSettingsOutline } from 'react-icons/io5';
+import { GiAutoRepair, GiAutomaticSas } from 'react-icons/gi';
+import { FaRecycle } from 'react-icons/fa';
 
 function ProfilePage() {
     return (
@@ -22,31 +27,32 @@ function ProfilePage() {
                             <img src={dp} alt="about-img" />
                         </div>
                         <div className="story-text">
-                            <h3>AN AWESOME DESIGNER ON PLANET</h3>
-                            <p >
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat enim arcu,
-                                eget tempor nibh congue a. Maecenas faucibus sagittis nibh, in bibendum ex. Donec eu
-                                ornare augue, nec cursus arcu. Vivamus accumsan mauris nec nulla bibendum, et eleifend
-                                nisl tristique. Pellentesque fringilla lorem id nibh auctor sagittis. Suspendisse non
-                                nisl at velit malesuada bibendum.
+                            <h3>Journey Of Start</h3>
+                            <p>
+                                I am a Master in Computer Applications student at MNNIT Prayagraj and I am currently working
+                                in Drivezy.com.
                             </p>
                             <p>
-                                Quisque in tempor sapien, et cursus neque. Nunc pulvinar diam ac dapibus mollis. Etiam
-                                id iaculis lorem. Donec bibendum volutpat ante, eu consequat nisi suscipit at. Etiam
-                                interdum augue dolor, id auctor felis volutpat sed. Phasellus id ex ultrices, tempus leo
-                                eget, volutpat diam. In sit amet magna faucibus, molestie nisi in, hendrerit libero.
-                                Morbi auctor velit sagittis, elementum lorem eget, imperdiet nisl.
+                                I have worked on a number of software testing projects in this company which helped me
+                                familiarize myself with various programming languages. I am pretty much comfortable with
+                                writing and designing the test cases, test preparation, and test plans.
                             </p>
                             <p>
-                                Curabitur pharetra tincidunt lobortis. Duis dolor felis, sollicitudin ac dapibus quis,
-                                hendrerit ut est. Sed faucibus neque iaculis nisi accumsan, et condimentum nunc
-                                scelerisque. Etiam interdum augue dolor, id auctor felis volutpat sed. Phasellus id ex
-                                ultrices, tempus leo eget, volutpat diam. In sit amet magna faucibus, molestie nisi in,
-                                hendrerit libero. Morbi auctor velit sagittis, elementum lorem eget, imperdiet nisl.
-                                Fusce elementum orci in dignissim cursus.
+                                I have hands-on
+                                experience in creating and implementing automation projects in Python and Javascript. During
+                                my experience, I implemented several automation projects ranging from parser for Python to a
+                                Q/A platform. I also bring some experience of working in the field of Selenium webdriver, Rest
+                                API, API Automation, Web Automation, Postman API Automation, and my latest project that API
+                                automation in python. All of my work experience in the area of STLC, Agile Model, and
+                                Automation has been majorly in Python. I am familiar with version control and Google
+                                Colaboratory. I also have experience with Linux based systems (Ubuntu). I am fluent in both
+                                spoken and written English. I am comfortable with making and delivering presentations as well.
                             </p>
-                            <a href="/" className="hire-me">Hire Me</a>
-                            <a href="/">Download Resume</a>
+                            {/* <a href="/" className="hire-me">Hire Me</a> */}
+                            <a href="patidar.govind.794@gmail.com?subject=Suggestions" className="hire-me" target="_top">
+                                Hire Me
+                            </a>
+                            <a href={pdf}>Download Resume</a>
                         </div>
                     </div>
 
@@ -56,18 +62,18 @@ function ProfilePage() {
                         <h2 >WHAT CAN I DO?</h2>
                     </div>
                     <div className="service-grid">
-                        <Services image={<FaEyeDropper />} title={"API Automation"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
-                        <Services image={<FaCode />} title={"UI Automation"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
-                        <Services image={<FaRocket />} title={"DevOps"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
-                        <Services image={<FaRocket />} title={"DevOps"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
-                        <Services image={<FaEyeDropper />} title={"DevOps"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
-                        <Services image={<FaRocket />} title={"DevOps"}
-                            text={'Vivamus et rhoncus mauris, suscipit efficitur elementum ex. Interdum et malesuada ipsum primis in faucibus. Nullam odio libero, cursus ac ligula suscipit maximus.'} />
+                        <Services image={<IoSettingsOutline />} title={"Manual Testing"}
+                            text={'When any tester, developer, or QA team begins a functional or performance testing process for the first time, they’ll likely start with manual testing.'} />
+                        <Services image={<SiZapier />} title={"API Testing"}
+                            text={'API TESTING is a software testing type that validates APIs. The purpose of API Testing is to check the functionality, reliability, performance, and security of the programming interfaces.'} />
+                        <Services image={<GiAutoRepair />} title={"API Automation"}
+                            text={'Web application testing, a software testing technique exclusively adopted to test the applications that are hosted on web in which the application interfaces and other functionalities are tested.'} />
+                        <Services image={<GiAutomaticSas />} title={"Web Automation"}
+                            text={'Web automation is the concept of letting software robots perform actions, tasks, and processes on a web browser or web application.'} />
+                        <Services image={<FaRecycle />} title={"SDLC"}
+                            text={'SDLC is an abbreviation of Software Development Life Cycle. SDLC is series of steps that offers a defined model for the development and lifecycle management of an application.'} />
+                        <Services image={<ImTree />} title={"DevOps"}
+                            text={'DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity.'} />
                     </div>
                 </div>
 

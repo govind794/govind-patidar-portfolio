@@ -9,16 +9,16 @@ function Experience() {
                 <div className="item">
                     <div className="bullet"></div>
                     <div className="experience-content">
-                        <h3>Senior Web Designer
-                                <span> / October 2013 - March 2015<br />
-                                    Lorem Ipsum, Inc.
-                                </span>
+                        <h3>Automation Engineer
+                            <span> / Jun 2020 - Sep 2020<br />
+                                API Automation through Postman
+                            </span>
                         </h3>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et pulvinar ligula.
-                            Praesent maximus ornare quam, id consectetur dui eleifend nec. Nam consectetur orci id
-                            nulla varius, quis facilisis dui vulputate. Sed ultrices eu erat non mollis. Phasellus
-                            ut libero.
+                            Documentation at a Collection and its request level in Postman.
+                            Created and executed test cases under a test suite and have taken respective actions.
+                            Have a proper understanding in dealing with Environment and global level variables for collection.
+                            To prevent human error and for flawless testing, I have automated unit tests, functional tests, integration tests, regression tests, and mock tests, etc
                         </p>
                     </div>
                 </div>
@@ -26,15 +26,17 @@ function Experience() {
                 <div className="item">
                     <div className="bullet"></div>
                     <div className="experience-content">
-                        <h3>Senior Web Designer
-                            <span> / October 2011 - March 2013<br />
-                                    Lorem Ipsum, Inc.
+                        <h3>Automation Engineer
+                            <span> / April 2018 - Dec 2019<br />
+                                Drivezy (Web Automation)
                             </span>
                         </h3>
                         <p>
-                            In eu semper velit. Ut laoreet, sapien ac porta aliquam, est enim blandit nisl, ut
-                            semper dui justo a sapien. Nam orci ipsum, rutrum semper purus a, posuere molestie
-                            lorem. Sed ut nibh lobortis, semper ligula ut, tempus mi. In.
+                            Create manual test cases in Zephyr.Implemented automation using Selenium Webdriver, Python(Pyunit).
+                            Extensively automated regression and functional test suites using Selenium WebDriver.
+                            Performed Defect Tracking and Management in Jenkins.
+                            Actively participated in writing Test Plan and Test cases and the creation of the automation framework.
+                            Involved in the creation of an automation framework using selenium
                         </p>
                     </div>
                 </div>
@@ -42,16 +44,17 @@ function Experience() {
                 <div className="item">
                     <div className="bullet"></div>
                     <div className="experience-content">
-                        <h3>Senior Web Designer
-                            <span> / October 2009 - March 2011<br />
-                                    Lorem Ipsum, Inc.
+                        <h3>Manual Tester
+                            <span> / May 2017 - April 2018<br />
+                                Software Development Life Cycle
                             </span>
                         </h3>
                         <p>
-                            Maecenas hendrerit euismod lorem, vitae mollis odio consectetur a. Aliquam at viverra
-                            nunc. Fusce neque lectus, vehicula eget lectus ac, consequat mollis erat. Sed sed
-                            interdum nisl. Nulla maximus odio vitae turpis rhoncus tempus. Donec vel elit quis metus
-                            rutrum.
+                            SDLC is a framework that defines the different steps or processes in Software Development Cycle.
+                            Software Development Life Cycle (SDLC) is also called as Application Development Life Cycle.
+                            The different steps involved in the Software Development Life Cycle are Planning, Analysis,
+                            Design, Implementation, and Maintenance. The Software Development Life Cycle process can be
+                            applied both to the hardware or software components or configuration to define its scope and lifecycle process.
                         </p>
                     </div>
                 </div>
