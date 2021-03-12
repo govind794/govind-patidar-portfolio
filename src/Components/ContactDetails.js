@@ -23,12 +23,12 @@ function ContactDetails({ address, mobile, email }) {
 
             <div className="social-media">
                 <p>
-                    <a href="https://www.youtube.com/c/jamesqquick"
+                    <a href="https://www.youtube.com/"
                         className="youtube social">
                         <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutube /></div>
                         <ReactTooltip id="tooltip" />
                     </a>
-                    <a href="https://www.facebook.com/learnbuildteach/"
+                <a href="https://www.facebook.com/"
                         className="facebook social">
                         <div data-tip="Facebook" data-for='tooltip' data-place='bottom'><FaFacebookF /></div>
                         <ReactTooltip />

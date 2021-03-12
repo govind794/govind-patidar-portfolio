@@ -25,14 +25,14 @@ function HomePage() {
                         <div className="mask"></div>
                         <div className="intro-content">
                             <h1>HELLO<br /> I'M <span>GOVIND</span> PATIDAR</h1>
-                            <h2>SOFTWARE ENGINEER</h2>
+                            <h2>AUTOMATION ENGINEER</h2>
                             <p className="social-media">
-                                <a href="https://www.youtube.com/c/jamesqquick"
+                                <a href="https://www.youtube.com/"
                                     className="youtube social">
                                     <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutubeSquare /></div>
                                     <ReactTooltip id="tooltip" />
                                 </a>
-                                <a href="https://www.facebook.com/learnbuildteach/"
+                                <a href="https://www.facebook.com/"
                                     className="facebook social">
                                     <div data-tip="Facebook" data-for='tooltip' data-place='bottom'><FaFacebookSquare /></div>
                                     <ReactTooltip />
