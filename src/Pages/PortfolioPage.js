@@ -34,13 +34,11 @@ function PortfolioPage() {
                 </div>
             </div>
             <div class="content-container">
-                <div class="portfolio">
+                <div class="port-small-heading">
                     <h2 class="small-heading">PORTFOLIO</h2>
-                    <div className="PortfolioPage">
-                        <div className="portfolios">
-                            <Categoties filter={filter} category={categories} />
-                            <MenuItems menuItem={menuItems} />
-                        </div>
+                    <div className="portfolios">
+                        <Categoties filter={filter} category={categories} />
+                        <MenuItems menuItem={menuItems} />
                     </div>
                 </div>
                 <Fact />

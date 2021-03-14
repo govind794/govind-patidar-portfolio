@@ -18,9 +18,9 @@ function HomePage() {
 
     return (
         <div>
-                <div className="home-page" style={{ visibility: open ? 'hidden' : 'visible' }}>
+            <div className="home-page" style={{ visibility: open ? 'hidden' : 'visible' }}>
                 <NavLink to='/' className="nav-link">
-                    <div className="introduction" style={{ width: open ? '100%' : '50%', height: open ? '50%' : '100%', left: open ? '-940px' : '0' }}>
+                    <div className="introduction" style={{ left: open ? '-940px' : '0' }}>
                         <img alt="home-dp" src={home_dp} style={{ width: open ? '100%' : '100%', height: open ? 'auto' : '100%' }} />
                         <div className="mask"></div>
                         <div className="intro-content">
@@ -52,7 +52,7 @@ function HomePage() {
                         </div>
                     </div>
                 </NavLink>
-                <div className="menu" style={{ width: open ? '100%' : '50%', height: open ? '50%' : '100%', left: open ? '940px' : '0' }}
+                <div className="menu" style={{ left: open ? '940px' : '0' }}
                     onClick={menuClick}>
                     <NavLink to='/profile' className="nav-link">
                         <div className="profile-btn">
@@ -86,8 +86,10 @@ function HomePage() {
                             <div className="mask"></div>
                             <div className="heading">
                                 <i><FaBriefcase /></i>
-                                <h2>PORT<span>F</span>OLIO</h2>
-                                <h3>Have a spoon of my work.</h3>
+                                <div className="text">
+                                    <h2>PORT<span>F</span>OLIO</h2>
+                                    <h3>Have a spoon of my work.</h3>
+                                </div>
                             </div>
                         </div>
                     </NavLink>
@@ -97,15 +99,17 @@ function HomePage() {
                             <div className="mask"></div>
                             <div className="heading">
                                 <i><FaEnvelope /></i>
-                                <h2>CO<span>N</span>TACT</h2>
-                                <h3>Say hello or find me.</h3>
+                                <div className="text">
+                                    <h2>CO<span>N</span>TACT</h2>
+                                    <h3>Say hello or find me.</h3>
+                                </div>
                             </div>
                         </div>
                     </NavLink>
                 </div>
             </div>
             <div className="close-btn" onClick={menuClick}></div>
-        </div>
+        </div >
     )
 }
 export default HomePage;
