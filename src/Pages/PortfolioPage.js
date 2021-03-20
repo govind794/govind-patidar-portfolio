@@ -9,7 +9,7 @@ import Fact from '../Components/Fact';
 const allCategories = ['All', ...new Set(Portfolios.map(item => item.category))];
 
 function PortfolioPage() {
-    const [categories, setCategories] = useState(allCategories);
+    const [categories] = useState(allCategories);
     const [menuItems, setMenuItems] = useState(Portfolios);
 
     const filter = (category) => {
@@ -33,9 +33,9 @@ function PortfolioPage() {
                     <h1>POR<span>T</span>FOLIO</h1>
                 </div>
             </div>
-            <div class="content-container">
-                <div class="port-small-heading">
-                    <h2 class="small-heading">PORTFOLIO</h2>
+            <div className="content-container">
+                <div className="port-small-heading">
+                    <h2 className="small-heading">PORTFOLIO</h2>
                     <div className="portfolios">
                         <Categoties filter={filter} category={categories} />
                         <MenuItems menuItem={menuItems} />

@@ -10,10 +10,14 @@ import ContactPage from './Pages/ContactPage';
 function App() {
   return (
     <div className="App">
-        <HomePage />
+      <Switch>
+        <Route>
+          <HomePage path="/" exact />
+        </Route>
+      </Switch>
       <div className="content">
         <Switch>
-          <Route path="/profile">
+          <Route path="/profile" exact>
             <ProfilePage />
           </Route>
           <Route path="/resume" exact>

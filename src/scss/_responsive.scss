@@ -191,7 +191,6 @@
         padding: 0px;
     }
 
-
     .content-head {
         width: 100%;
         fieldset {
@@ -203,14 +202,14 @@
     .google-map {
         height: 500px;
         width: 99%;
-        iframe{
+        iframe {
             width: 100%;
         }
     }
 
-    .contact-details{
+    .contact-details {
         width: 100%;
-        .contact{
+        .contact {
             display: block;
             grid-template-columns: repeat(3, 1fr);
         }
@@ -223,6 +222,13 @@
 
     .contact-form button {
         width: 100%;
+    }
+
+    .close-btn {
+        width: 30px;
+        height: 30px;
+        background: url(../images/icon/close_sm.png);
+        background-size: cover;
     }
 }
 
@@ -420,7 +426,6 @@
         padding: 0px;
     }
 
-
     .content-head {
         width: 100%;
         fieldset {
@@ -432,14 +437,14 @@
     .google-map {
         height: 500px;
         width: 99%;
-        iframe{
+        iframe {
             width: 100%;
         }
     }
 
-    .contact-details{
+    .contact-details {
         width: 100%;
-        .contact{
+        .contact {
             display: inline;
             grid-template-columns: repeat(1, 1fr);
         }
@@ -567,6 +572,7 @@
         width: 100%;
         padding-left: 0px;
         grid-template-columns: repeat(1, 1fr);
+        display: block;
         .skill {
             padding-right: 0px;
             .skill-container {
@@ -609,14 +615,14 @@
     .google-map {
         height: 500px;
         width: 99%;
-        iframe{
+        iframe {
             width: 100%;
         }
     }
 
-    .contact-details{
+    .contact-details {
         width: 100%;
-        .contact{
+        .contact {
             display: inline;
             grid-template-columns: repeat(1, 1fr);
         }
