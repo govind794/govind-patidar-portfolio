@@ -51,7 +51,7 @@ function HomePage() {
                 </div>
                 <div className="menu" style={{ left: open ? '940px' : '0' }}
                     onClick={menuClick}>
-                    <NavLink to='/profile' className="nav-link">
+                    <NavLink to='/govind-patidar-portfolio/profile' className="nav-link">
                         <div className="profile-btn">
                             <img alt="profile_bg" src={profile_bg} />
                             <div className="mask"></div>
@@ -64,7 +64,7 @@ function HomePage() {
                             </div>
                         </div>
                     </NavLink>
-                    <NavLink to='/resume' className="nav-link">
+                    <NavLink to='/govind-patidar-portfolio/resume' className="nav-link">
                         <div className="resume-btn">
                             <img alt="resume_bg" src={resume_bg} />
                             <div className="mask"></div>
@@ -77,7 +77,7 @@ function HomePage() {
                             </div>
                         </div>
                     </NavLink>
-                    <NavLink to='/portfolio' className="nav-link">
+                    <NavLink to='/govind-patidar-portfolio/portfolio' className="nav-link">
                         <div className="portfolio-btn">
                             <img alt="portfolio_bg" src={portfolio_bg} />
                             <div className="mask"></div>
@@ -90,7 +90,7 @@ function HomePage() {
                             </div>
                         </div>
                     </NavLink>
-                    <NavLink to='/contact' className="nav-link">
+                    <NavLink to='/govind-patidar-portfolio/contact' className="nav-link">
                         <div className="contact-btn">
                             <img alt="contact_bg" src={contact_bg} />
                             <div className="mask"></div>

@@ -12,21 +12,21 @@ function App() {
     <div className="App">
       <Switch>
         <Route>
-          <HomePage path="/" exact />
+          <HomePage path="/govind-patidar-portfolio" exact />
         </Route>
       </Switch>
       <div className="content">
         <Switch>
-          <Route path="/profile" exact>
+          <Route path="/govind-patidar-portfolio/profile" exact>
             <ProfilePage />
           </Route>
-          <Route path="/resume" exact>
+          <Route path="/govind-patidar-portfolio/resume" exact>
             <ResumePage />
           </Route>
-          <Route path="/portfolio" exact>
+          <Route path="/govind-patidar-portfolio/portfolio" exact>
             <PortfolioPage />
           </Route>
-          <Route path="/contact" exact>
+          <Route path="/govind-patidar-portfolio/contact" exact>
             <ContactPage />
           </Route>
         </Switch>
