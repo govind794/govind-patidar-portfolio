@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTooltip from "react-tooltip";
-import { NavLink } from 'react-router-dom';
-import { FaGithubSquare, FaFacebookSquare, FaYoutubeSquare, FaTwitterSquare, FaUser, FaGraduationCap, FaBriefcase, FaEnvelope } from "react-icons/fa";
+import { NavLink, Link } from 'react-router-dom';
+import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube, FaUser, FaGraduationCap, FaBriefcase, FaEnvelope } from "react-icons/fa";
 
 import home_dp from '../images/01.png';
 import profile_bg from '../images/menu/11.png';
@@ -19,39 +19,36 @@ function HomePage() {
     return (
         <div>
             <div className="home-page" style={{ visibility: open ? 'hidden' : 'visible' }}>
-                <NavLink to='/' className="nav-link">
-                    <div className="introduction" style={{ left: open ? '-940px' : '0' }}>
-                        <img alt="home-dp" src={home_dp} style={{ width: open ? '100%' : '100%', height: open ? 'auto' : '100%' }} />
-                        <div className="mask"></div>
-                        <div className="intro-content">
-                            <h1>HELLO<br /> I'M <span>GOVIND</span> PATIDAR</h1>
-                            <h2>AUTOMATION ENGINEER</h2>
-                            <p className="social-media">
-                                <a href="https://www.youtube.com/"
-                                    className="youtube social">
-                                    <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutubeSquare /></div>
-                                    <ReactTooltip id="tooltip" />
-                                </a>
-                                <a href="https://www.facebook.com/"
-                                    className="facebook social">
-                                    <div data-tip="Facebook" data-for='tooltip' data-place='bottom'><FaFacebookSquare /></div>
-                                    <ReactTooltip />
-                                </a>
-
-                                <a href="https://twitter.com/Govind794"
-                                    className="twitter social">
-                                    <div data-tip="Twitter" data-for='tooltip' data-place='bottom'><FaTwitterSquare /></div>
-                                    <ReactTooltip />
-                                </a>
-                                <a href="https://github.com/govind794"
-                                    className="github social">
-                                    <div data-tip="Github" data-for='tooltip' data-place='bottom'><FaGithubSquare /></div>
-                                    <ReactTooltip />
-                                </a>
-                            </p>
-                        </div>
+                <div className="introduction" style={{ left: open ? '-940px' : '0' }}>
+                    <img alt="home-dp" src={home_dp} style={{ width: open ? '100%' : '100%', height: open ? 'auto' : '100%' }} />
+                    <div className="mask"></div>
+                    <div className="intro-content">
+                        <h1>HELLO<br /> I'M <span>GOVIND</span> PATIDAR</h1>
+                        <h2>AUTOMATION ENGINEER</h2>
+                        <p className="social-media">
+                            <a href="https://www.linkedin.com/in/govind794"
+                                className="facebook social">
+                                <div data-tip="Linkedin" data-for='tooltip' data-place='bottom'><FaLinkedinIn /></div>
+                                <ReactTooltip />
+                            </a>
+                            <a href="https://github.com/govind794"
+                                className="github social">
+                                <div data-tip="Github" data-for='tooltip' data-place='bottom'><FaGithub /></div>
+                                <ReactTooltip />
+                            </a>
+                            <a href="https://twitter.com/Govind794"
+                                className="twitter social">
+                                <div data-tip="Twitter" data-for='tooltip' data-place='bottom'><FaTwitter /></div>
+                                <ReactTooltip />
+                            </a>
+                            <a href="https://www.youtube.com/"
+                                className="youtube social">
+                                <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutube /></div>
+                                <ReactTooltip id="tooltip" />
+                            </a>
+                        </p>
                     </div>
-                </NavLink>
+                </div>
                 <div className="menu" style={{ left: open ? '940px' : '0' }}
                     onClick={menuClick}>
                     <NavLink to='/profile' className="nav-link">

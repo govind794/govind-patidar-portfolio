@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaFacebookF, FaYoutube, FaTwitter, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
 
 function ContactDetails({ address, mobile, email }) {
@@ -23,26 +23,25 @@ function ContactDetails({ address, mobile, email }) {
 
             <div className="social-media">
                 <p>
-                    <a href="https://www.youtube.com/"
-                        className="youtube social">
-                        <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutube /></div>
-                        <ReactTooltip id="tooltip" />
-                    </a>
-                <a href="https://www.facebook.com/"
+                    <a href="https://www.linkedin.com/in/govind794"
                         className="facebook social">
-                        <div data-tip="Facebook" data-for='tooltip' data-place='bottom'><FaFacebookF /></div>
-                        <ReactTooltip />
-                    </a>
-
-                    <a href="https://twitter.com/Govind794"
-                        className="twitter social">
-                        <div data-tip="Twitter" data-for='tooltip' data-place='bottom'><FaTwitter /></div>
+                        <div data-tip="Linkedin" data-for='tooltip' data-place='bottom'><FaLinkedinIn /></div>
                         <ReactTooltip />
                     </a>
                     <a href="https://github.com/govind794"
                         className="github social">
                         <div data-tip="Github" data-for='tooltip' data-place='bottom'><FaGithub /></div>
                         <ReactTooltip />
+                    </a>
+                    <a href="https://twitter.com/Govind794"
+                        className="twitter social">
+                        <div data-tip="Twitter" data-for='tooltip' data-place='bottom'><FaTwitter /></div>
+                        <ReactTooltip />
+                    </a>
+                    <a href="https://www.youtube.com/"
+                        className="youtube social">
+                        <div data-tip="youtube" data-for='tooltip' data-place='bottom'><FaYoutube /></div>
+                        <ReactTooltip id="tooltip" />
                     </a>
                 </p>
             </div>

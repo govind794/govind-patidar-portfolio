@@ -15,7 +15,7 @@ function ContactPage() {
                 <div className="content-head">
                     <h2 className="small-heading">SAY HELLO!</h2>
                     <div className="contact-form">
-                        <form action="php/contact.php" id="contactForm" method="post" name="contactForm">
+                        <form action="#" id="contactForm" method="post" name="contactForm">
                             <fieldset>
                                 <div className="col-sm-12">
                                     <input id="name" name="name" placeholder="Your Name*" type="text" value="" />

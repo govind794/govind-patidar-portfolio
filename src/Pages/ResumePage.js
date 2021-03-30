@@ -36,45 +36,9 @@ function ResumePage() {
                     school="K V S H S School, Nalkheda, Shajapur, 12th"
                     year="July 2009 - May 2011"
                     description="MPC Group is a part of Science stream. This group is also known as PCM Group.
-                                It stands for Physics, Chemistry and Mathematics – the subjects chosen by a
-                                student in 12th Science stream."
+                                the subjects chosen  in 12th Physics, Chemistry and Mathematics."
                 />
-
                 <Experience />
-                {/* <h2 className="exp-small-heading">EXPERIENCE</h2> */}
-                {/* <Experience
-                    school="Automation Engineer"
-                    year="Jun 2020 - Sep 2020"
-                    title="API Automation through Postman"
-                    description="Documentation at a Collection and its request level in Postman.
-                                Created and executed test cases under a test suite and have taken respective actions.
-                                Have a proper understanding in dealing with Environment and global level variables for collection.
-                                To prevent human error and for flawless testing, I have automated unit tests, functional tests, 
-                                integration tests, regression tests, and mock tests, etc"
-                />
-
-                <Experience
-                    school="Automation Engineer"
-                    year="April 2018 - Dec 2019"
-                    title="Drivezy (Web Automation)"
-                    description="Create manual test cases in Zephyr.Implemented automation using Selenium Webdriver, Python(Pyunit).
-                                Extensively automated regression and functional test suites using Selenium WebDriver.
-                                Performed Defect Tracking and Management in Jenkins.
-                                Actively participated in writing Test Plan and Test cases and the creation of the automation framework.
-                                Involved in the creation of an automation framework using selenium"
-                />
-
-                <Experience
-                    school="Manual Tester"
-                    year="May 2017 - April 2018"
-                    title="Software Development Life Cycle"
-                    description="SDLC is a framework that defines the different steps or processes in Software Development Cycle.
-                                Software Development Life Cycle (SDLC) is also called as Application Development Life Cycle.
-                                The different steps involved in the Software Development Life Cycle are Planning, Analysis,
-                                Design, Implementation, and Maintenance. The Software Development Life Cycle process can be
-                                applied both to the hardware or software components or configuration to define its scope and lifecycle process."
-                /> */}
-
                 <h2 className="skill-small-heading">SKILLS</h2>
                 <div className="skills">
                     <Skills skill={'Selenium'} progress={'75%'} width={'75%'} />
