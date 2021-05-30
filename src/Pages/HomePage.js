@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTooltip from "react-tooltip";
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { FaLinkedinIn, FaGithub, FaTwitter, FaYoutube, FaUser, FaGraduationCap, FaBriefcase, FaEnvelope } from "react-icons/fa";
 
 import home_dp from '../images/01.png';
